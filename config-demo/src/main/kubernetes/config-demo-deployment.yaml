@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: config-demo
+  labels:
+    app: config-demo
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: config-demo
+      labels:
+        app: config-demo
+    spec:
+      containers:
+        - name: config-demo
+          image: 192.168.0.229/library/demo-config:v1
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 9092
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: config-demo

@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: config-demo
+spec:
+  selector:
+    app: config-demo
+  ports:
+    - port: 30918
+      protocol: TCP
+      nodePort: 30918
+      targetPort: 9092
+  type: NodePort

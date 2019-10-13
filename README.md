@@ -7,3 +7,6 @@
   [Lowdad's Blog](https://blog.lowdad.com)
   
    [K8s(1)微服务治理 Spring Cloud kubernetes](https://blog.lowdad.com/archives/spring-cloud-k8s-discoverydemo)
+   
+### 源码索引
+   [K8s(1)微服务治理 Spring Cloud kubernetes](https://github.com/javawcy/spring-cloud-kubernetes-demos/tree/master/discovery-demo)

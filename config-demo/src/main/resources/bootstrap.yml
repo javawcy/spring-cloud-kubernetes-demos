@@ -6,9 +6,11 @@ spring:
     name: config-demo
   cloud:
     kubernetes:
+      reload:
+        enabled: true
       config:
         sources:
-          - name: {spring.application.name}
+          - name: ${spring.application.name}
 management:
   endpoint:
     restart:

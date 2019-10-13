@@ -6,7 +6,9 @@
 ### 实践链接
   [Lowdad's Blog](https://blog.lowdad.com)
   
-   [K8s(1)微服务治理 Spring Cloud kubernetes](https://blog.lowdad.com/archives/spring-cloud-k8s-discoverydemo)
+   [K8s微服务治理(01) Spring Cloud kubernetes](https://blog.lowdad.com/archives/spring-cloud-k8s-discoverydemo)
+   [K8s微服务治理(02) 在SpringCloud中引用ConfigMap自动配置](https://blog.lowdad.com/archives/springcloud_configmap)
    
 ### 源码索引
-   [K8s(1)微服务治理 Spring Cloud kubernetes](https://github.com/javawcy/spring-cloud-kubernetes-demos/tree/master/discovery-demo)
+   [K8s微服务治理(01) Spring Cloud kubernetes](https://github.com/javawcy/spring-cloud-kubernetes-demos/tree/master/discovery-demo)
+   [K8s微服务治理(02) 在SpringCloud中引用ConfigMap自动配置](https://github.com/javawcy/spring-cloud-kubernetes-demos/tree/master/config-demo)

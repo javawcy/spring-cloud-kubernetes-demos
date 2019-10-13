@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
  **/
 @Configuration
 @ConfigurationProperties(prefix = "config")
-public class DemoConfigration {
+public class DemoConfiguration {
 
     private String message;
 

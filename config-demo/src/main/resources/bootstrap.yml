@@ -8,4 +8,12 @@ spring:
     kubernetes:
       config:
         sources:
-          - name: $kub{spring.application.name}
+          - name: {spring.application.name}
+management:
+  endpoint:
+    restart:
+      enabled: true
+    health:
+      enabled: true
+    info:
+      enabled: true

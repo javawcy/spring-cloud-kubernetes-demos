@@ -12,17 +12,7 @@ spring:
         sources:
           - name: ${spring.application.name}
 management:
-  endpoint:
-    restart:
-      enabled: true
-    health:
-      enabled: true
-    info:
-      enabled: true
   endpoints:
     web:
       exposure:
-        include: *
-  metrics:
-    tags:
-      application: ${spring.application.name}
+        include: prometheus,health,info,restart

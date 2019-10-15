@@ -16,3 +16,12 @@ management:
     web:
       exposure:
         include: prometheus,health,info,restart
+  endpoint:
+    restart:
+      enabled: true
+    health:
+      enabled: true
+    info:
+      enabled: true
+    prometheus:
+      enabled: true

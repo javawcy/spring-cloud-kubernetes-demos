@@ -18,6 +18,7 @@ spec:
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9092
+            - containerPort: 9012
       restartPolicy: Always
   selector:
     matchLabels:

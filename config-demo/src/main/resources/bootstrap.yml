@@ -19,3 +19,6 @@ management:
       enabled: true
     info:
       enabled: true
+  server:
+    port: 9012
+    address: 0.0.0.0

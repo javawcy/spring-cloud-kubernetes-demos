@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "com.lowdad.dev.rpc";
+
+message Req{
+    string msg = 1;
+    int32 number = 2;
+    double number2 = 3;
+    bool res = 4;
+    bytes pic = 5;
+}
+
+message Res{
+    string msg = 1;
+}
+
+service TestService {
+    rpc Test(Req) returns (Res);
+}

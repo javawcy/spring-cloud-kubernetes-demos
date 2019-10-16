@@ -11,9 +11,8 @@ spec:
       protocol: TCP
       nodePort: 30918
       targetPort: 9092
-    - name: actuator
-      port: 30198
+    - name: rpc
+      port: 9012
       protocol: TCP
-      nodePort: 30198
       targetPort: 9012
   type: NodePort
